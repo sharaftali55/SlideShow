@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="brand">
+        <img src="./Image/image-removebg-preview.png" alt="brand">
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="./Image/img1.jpg" alt="Image 1">
+                <div class="caption">Team Work</div>
+            </div>
+            <div class="slide">
+                <img src="./Image/img2.jpg" alt="Image 2">
+                <div class="caption">Group Discussion</div>
+            </div>
+            <div class="slide">
+                <img src="./Image/img3.jpg" alt="Image 3">
+                <div class="caption">WorkSpace</div>
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
